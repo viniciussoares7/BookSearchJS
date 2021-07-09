@@ -13,10 +13,10 @@ if (firstInput.toLocaleUpperCase() === 'Y') {
   const category = books.filter(category => books.category)
   console.log(
     'Produtividade e estilo de vida',
-    'História brasileira',
-    'Américas',
-    'Tecnologia',
-    'Estilo de vida'
+    '/ História brasileira',
+    '/ Américas',
+    '/ Tecnologia',
+    '/ Estilo de vida'
   )
   const inputCategory = readline.question('Choise a category: ')
   const returnCategory = books.filter(book => book.category === inputCategory)
